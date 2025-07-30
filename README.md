@@ -75,6 +75,7 @@ There are **45,211 rows** and **17 columns**.
 
 ## 💳 Credit Default Insights
 - Only **1.8%** clients contacted by the bank have a credit default history
+- Rest **98.2%** people don't have a credit default history
 
 ---
 
@@ -96,6 +97,7 @@ There are **45,211 rows** and **17 columns**.
     - 6.4% hold only Personal Loans
     - 45.9% hold only Mortgages
     - 9.7% hold both Mortgage and Personal Loans
+- These **9.7% customers** can be the best target for TD Cross Sell
 
 ---
 
@@ -163,6 +165,23 @@ Analyze client conversion behavior across key demographics to refine future camp
 Grouped bar charts across six dimensions—job, marital status, education, default history, housing loan status, and personal loan status. Each chart shows the percentage of clients who did **not convert** (red) versus those who **converted** (green).
 
 ---
+##### 💵 Conversion Rate Across Loan Holding
+###### 🏠 Mortgage Holders
+
+| Personal Loan | Converted %    | Didn't Convert %    |
+|---------------|----------------|---------------------|
+| No            | 3.7%           | 42.2%               |
+| Yes           | 0.6%           | 9.1%                |
+
+###### 🚫🏠 Non-Mortgage Holders
+
+| Personal Loan | Converted %    |   Didn't Convert %  |
+|---------------|----------------|---------------------|
+| No            | 6.9%           | 31.1%               |
+| Yes           | 0.5%           | 5.9%                |
+
+> Clients **without personal loans** and **with mortgages** convert at a higher rate (3.7%) than those with personal loans (0.6%).
+> Clients **without both mortgage and personal loans** have the highest conversion rate across all groups (6.9%).
 
 ### 👷 Conversion by Job Type
 | Job Category   | Converted % | Key Insight |
@@ -171,7 +190,8 @@ Grouped bar charts across six dimensions—job, marital status, education, defau
 | Retired        | 1.4%        | 🧓 Opportunity in pensioners and financial security. |
 | Technician     | 1.9%        | 🛠️ Good traction from skilled professionals. |
 | Blue-collar    | 1.6%        | 🔧 Engaged despite economic constraints. |
-| Student        | 0.1%        | 🎓 Very low uptake—targeting may not be viable. |
+| Retired        | 1.1%        | 🎓 Good Candidates for a potential TD as retired people have a willingness to save |
+| Admin          | 1.4%        | 🎓 consistent income and long-term employment makes this group a TD taker |
 
 > 🛎️ **Focus on job types with economic stability and past success indicators.**
 
@@ -205,6 +225,7 @@ Grouped bar charts across six dimensions—job, marital status, education, defau
 | No             | 11.6%       | ✅ Default-free clients are significantly more receptive. |
 | Yes            | 0.1%        | 🚫 Almost no conversions—credit risk barrier.
 
+- Generally people with a previous history of credit default are not ideal candidates for TD Cross Sell
 > ⚠️ **Consider excluding or segmenting defaulted clients.**
 
 ---
