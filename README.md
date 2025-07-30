@@ -181,6 +181,7 @@ Grouped bar charts across six dimensions—job, marital status, education, defau
 | Yes           | 0.5%           | 5.9%                |
 
 > Clients **without personal loans** and **with mortgages** convert at a higher rate (3.7%) than those with personal loans (0.6%).
+
 > Clients **without both mortgage and personal loans** have the highest conversion rate across all groups (6.9%).
 
 ### 👷 Conversion by Job Type
